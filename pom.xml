@@ -34,10 +34,6 @@
 						<environment>${environment}</environment>			
 						<properties>
 							<auto.id>15555944</auto.id>
-							<anypoint.platform.analytics_base_uri>https://analytics-ingest.anypoint.mulesoft.com/</anypoint.platform.analytics_base_uri>
-<anypoint.platform.client_id>cb45870d2a7c4ada9f6abae559912cbb</anypoint.platform.client_id>
-<anypoint.platform.client_secret>588B1D72bf56499cb3745BAa493ab93A</anypoint.platform.client_secret>
-<anypoint.platform.base_uri>https://anypoint.mulesoft.com/</anypoint.platform.base_uri>
 						</properties>
 					</cloudHubDeployment>
 				 <classifier>mysimpleapplication</classifier>
