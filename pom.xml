@@ -36,7 +36,7 @@
 							<auto.id>15555944</auto.id>
 						</properties>
 					</cloudHubDeployment>
-				<classifier>mysimpleapplication</classifier>
+				 <classifier>mysimpleapplication</classifier>
                 </configuration>
 
 			</plugin>
