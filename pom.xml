@@ -31,10 +31,9 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${mule.version}</muleVersion>
 						<server>my.anypoint.credentials</server>
-				
 						<environment>${environment}</environment>			
 						<properties>
-							<key>value</key>
+							<auto.id>15555944</auto.id>
 						</properties>
 					</cloudHubDeployment>
 				<classifier>mysimpleapplication</classifier>
