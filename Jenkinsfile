@@ -8,12 +8,13 @@ pipeline {
     stages {
         stage("foo") {
             steps {
-                echo "flag: ${params.userFlag}"
-            }
-            steps {
+                echo "**********flag: ${params.userFlag}"
+            }     
+       }
+       stage("foo2") {
+       steps {
                 sh 'mvn clean deploy -DmuleDeploy'
-            }
-            
-        }
+            } 
     }
+}
 }
