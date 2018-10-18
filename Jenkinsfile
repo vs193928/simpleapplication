@@ -11,7 +11,7 @@ pipeline {
                 echo "flag: ${params.userFlag}"
             }
             steps {
-                mvn clean package deploy -DmuleDeploy
+                sh 'mvn clean deploy -DmuleDeploy'
             }
             
         }
